@@ -1,0 +1,61 @@
+body {
+    background-color: #E6DCDB;
+   
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.card{
+    width: 250px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    justify-content: center;
+    padding-top: 10px ;
+    font-size: xx-large;
+    color: #482c3d;
+}
+
+div img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+   div img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+} 
+
+.fancybox__caption {
+  color: #a38893; 
+  font-size: 25px; 
+  font-weight: bold; 
+  text-align: center;
+}
+.card {
+  transition: transform 1s ease ; 
+
+}
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
